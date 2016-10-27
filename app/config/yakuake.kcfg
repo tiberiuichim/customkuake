@@ -112,6 +112,13 @@
       <whatsthis context="@info:whatsthis">Whether to briefly display a colored overlay above the newly focused terminal when moving focus between multiple terminals in a session, as well as over the currently focused terminal when switching to a session with multiple terminals.</whatsthis>
       <default>false</default>
     </entry>
+    <entry name="TabTitleWhitespacePadding" type="Int">
+      <label context="@label">Padding around tab titles</label>
+      <whatsthis context="@info:whatsthis">Applies a whitespace padding inside the tabs, around the tab title.</whatsthis>
+      <default>0</default>
+      <min>0</min>
+      <max>100</max>
+    </entry>
     <entry name="TerminalHighlightOpacity" type="Double">
       <label context="@label">Terminal highlight opacity</label>
       <whatsthis context="@info:whatsthis">The opacity of the colored overlay used to highlight a terminal.</whatsthis>
