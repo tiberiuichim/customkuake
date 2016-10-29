@@ -482,7 +482,7 @@ int TabBar::drawButton(int x, int y, int index, QPainter& painter)
     painter.setFont(font);
 
     QFontMetrics fontMetrics(font);
-    textWidth = fontMetrics.width(title) + 60;
+    textWidth = fontMetrics.width(title) + Settings::tabTitleWhitespacePadding();
 
     // Draw the Prevent Closing image in the tab button.
     if (m_mainWindow->sessionStack()->isSessionClosable(sessionId) == false)
