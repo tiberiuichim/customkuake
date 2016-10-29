@@ -1,9 +1,9 @@
 Note: THIS IS NOT AN OFFICIAL REPO! No official development is done here.
 
-= Customizations in this repo =
+# Customizations in this repo
 ![Whitespace Padding](/customizations/tab_title_padding.png?raw=true "Tab title whitespace padding")
 
-== About Yakuake ==
+## About Yakuake
 
 Yakuake is a drop-down terminal emulator based on KDE Konsole technology.
 
