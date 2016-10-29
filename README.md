@@ -1,9 +1,14 @@
 Note: THIS IS NOT AN OFFICIAL REPO! No official development is done here.
 
-= Customizations in this repo =
+# Customizations in this repo
+
+### Whitespace padding in tab titles
+
+Yakuake by default strips whitespace in tab titles. And leaves just a tiny bit of space around the tab title. Some people prefer a bit of space around text. This customization enables configuration of that amount of space.
+
 ![Whitespace Padding](/customizations/tab_title_padding.png?raw=true "Tab title whitespace padding")
 
-== About Yakuake ==
+## About Yakuake
 
 Yakuake is a drop-down terminal emulator based on KDE Konsole technology.
 
